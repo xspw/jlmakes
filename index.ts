@@ -1,4 +1,4 @@
-import Constructor from "./src/core/constructor";
+import Constructor from "src/core/constructor";
 
 new Constructor({
   root: "#js-main",
@@ -6,4 +6,4 @@ new Constructor({
   depth: 1
 });
 
-import "./index.scss";
+import "index.scss";
